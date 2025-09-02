@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav{
+  text-align: center;
+  margin-top: 150%;
+  position: sticky;
+}
+.btn{
+  font-size: 2vh;
+  height: 4.5vh;
+  padding: 0 3vw;
+  background: white;
+  border: 0.25vh solid #c6c6c6;
+  border-radius: 0.5vh;
+  transition: 0.3s;
+  margin: 0 0.5vw;
+}
+.btn:hover{
+  background: #c6c6c6;
+  scale: 1.05;
+}
+#disabled-btn{
+  background: #3c91ff;
+  color: white;
+  border: 0.25vh solid #3c91ff;
+  scale: 1.05;
+}
+#prev-btn, #next-btn{
+  background: #3c91ff;
+  border: 0.25vh solid #3c91ff;
+  color: white;
+}
+#prev-btn:hover, #next-btn:hover{
+  background: #0c76ff;
+}
+.container{
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-template-rows: 30vh;
+}
+.images{
+  width: 40vw;
+  height: 30vh;
+  margin: 10vh, 10vw;
+}
+.text{
+  font-size: 1.95vh;
+}
