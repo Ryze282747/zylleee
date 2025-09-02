@@ -7,7 +7,7 @@
 html{
   margin: 0;
   position: relative;
-  background-image: url(../background_photo/cigarettes_after_sex.jfif);
+  background-image: url(../background_photo/1975.jfif);
   background-size: cover;
   background-position: center;
   isolation: isolate;
@@ -80,6 +80,9 @@ html::after{
 }
 #text3{
   padding-top: 13vh;
+}
+#text2{
+  padding-top: 10vh;
 }
 .container{
   display: flex;
