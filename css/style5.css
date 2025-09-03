@@ -7,7 +7,7 @@
 html{
   margin: 0;
   position: relative;
-  background-image: url(../background_photo/oasis.jfif);
+  background-image: url(../background_photo/the_neighbourhood.jfif);
   background-size: cover;
   background-position: center;
   isolation: isolate;
@@ -71,9 +71,6 @@ html::after{
   width: 35%;
   height: 30%;
 }
-#img1{
-  margin-top: 10vh;
-}
 .text{
   font-size: 6vh;
   width: 35%;
@@ -83,9 +80,6 @@ html::after{
 }
 #text3{
   padding-top: 13vh;
-}
-#text2{
-  padding-top: 10vh;
 }
 .container{
   display: flex;
