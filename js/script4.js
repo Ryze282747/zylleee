@@ -1,27 +1,27 @@
 const songs = [
   {
-    title: "Sunzets",
-    artist: "Cigarettes After Sex",
-    src: "songs/sunzets.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Secret Door",
+    artist: "Artic Monkeys",
+    src: "songs/secret_door.mp3",
+    cover: "covers/wanna_be_yours.png"
   },
   {
-    title: "Nothing's Gonna Hurt You Baby",
-    artist: "Cigarettes After Sex",
-    src: "songs/nghyb.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "505",
+    artist: "Artic Monkeys",
+    src: "songs/505.mp3",
+    cover: "covers/wanna_be_yours.png"
   },
   {
-    title: "Cry",
-    artist: "Cigarettes After Sex",
-    src: "songs/cry.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "No 1 Party Anthem",
+    artist: "Artic Monkeys",
+    src: "songs/no_1_PA.mp3",
+    cover: "covers/wanna_be_yours.png"
   },
   {
-    title: "K.",
-    artist: "Cigarettes After Sex",
-    src: "songs/k.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "I Wanna Be Yours",
+    artist: "Artic Monkeys",
+    src: "songs/wanna_be_yours.mp3",
+    cover: "covers/wanna_be_yours.png"
   }
 ];
 

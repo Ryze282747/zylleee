@@ -1,27 +1,27 @@
 const songs = [
   {
-    title: "Sunzets",
-    artist: "Cigarettes After Sex",
-    src: "songs/sunzets.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "About you",
+    artist: "The 1975",
+    src: "songs/about_you.mp3",
+    cover: "covers/about_you.jpg"
   },
   {
-    title: "Nothing's Gonna Hurt You Baby",
-    artist: "Cigarettes After Sex",
-    src: "songs/nghyb.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Falling for you",
+    artist: "The 1975",
+    src: "songs/fallingforyou.mp3",
+    cover: "covers/about_you.jpg"
   },
   {
-    title: "Cry",
-    artist: "Cigarettes After Sex",
-    src: "songs/cry.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "I'm Inlove With You",
+    artist: "The 1975",
+    src: "songs/im_in_love_wu.mp3",
+    cover: "covers/about_you.jpg"
   },
   {
-    title: "K.",
-    artist: "Cigarettes After Sex",
-    src: "songs/k.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Robbers",
+    artist: "The 1975",
+    src: "songs/robbers.mp3",
+    cover: "covers/about_you.jpg"
   }
 ];
 
