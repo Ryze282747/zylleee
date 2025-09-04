@@ -1,27 +1,27 @@
 const songs = [
   {
-    title: "Sunzets",
-    artist: "Cigarettes After Sex",
-    src: "songs/sunzets.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Baby Came Home 2/Valentines",
+    artist: "The Neighbourhood",
+    src: "songs/baby_came_home.mp3",
+    cover: "covers/sweater_heather.jpeg"
   },
   {
-    title: "Nothing's Gonna Hurt You Baby",
-    artist: "Cigarettes After Sex",
-    src: "songs/nghyb.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Daddy Issues",
+    artist: "The Neighbourhood",
+    src: "songs/daddy_issues.mp3",
+    cover: "covers/sweater_heather.jpeg"
   },
   {
-    title: "Cry",
-    artist: "Cigarettes After Sex",
-    src: "songs/cry.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Reflections",
+    artist: "The Neighbourhood",
+    src: "songs/reflections.mp3",
+    cover: "covers/sweater_heather.jpeg"
   },
   {
-    title: "K.",
-    artist: "Cigarettes After Sex",
-    src: "songs/k.mp3",
-    cover: "covers/nghyb.jpeg"
+    title: "Sweater Weather",
+    artist: "The Neighbourhood",
+    src: "songs/sweater_heather.mp3",
+    cover: "covers/sweater_heather.jpeg"
   }
 ];
 

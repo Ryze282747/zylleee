@@ -62,7 +62,6 @@ html::after{
 }
 .music_player{
   height: 50vh;
-  border: 2px solid black;
   width: 95vw;
   margin: 0 auto;
   margin: 3vh auto;
@@ -70,6 +69,7 @@ html::after{
 .images{
   width: 35%;
   height: 30%;
+  border-radius: 10%;
 }
 .text{
   font-size: 6vh;
@@ -88,4 +88,5 @@ html::after{
   flex-wrap: wrap;
   margin: 3vh auto;
   justify-content: space-evenly;
+  row-gap: 5vh;
 }

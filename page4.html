@@ -5,9 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style4.css"/>
+    <link rel="stylesheet" href="css/music_player.css"/>
     <title>Scrapbook</title>
   </head>
   <body>
+    <div class="music_player">
+      <div class="player-container">
+        <!-- ✅ Now Playing Screen -->
+        <div id="nowPlayingScreen" class="screen active">
+          <div class="cover">
+            <img id="cover" src="cover1.jpg" alt="Album Cover" />
+          </div>
+          <div class="cover2">
+            <div class="header">
+              <button id="" class="neumorphic">←</button>
+              <h2 class="nowPlaying">Now Playing</h2>
+              <button id="volumeCycleBtn" class="neumorphic">🔊</button>
+            </div>
+            <div class="container2">
+              <h2 id="title"></h2>
+              <h3 id="artist"></h3>
+            </div>
+      
+            <div class="progress-container">
+              <span id="current-time">0:00</span>
+              <input type="range" id="progress" value="0" />
+              <span id="duration">0:00</span>
+            </div>
+      
+            <audio id="audio" src="music1.mp3"></audio>
+      
+            <div class="controls">
+              <button id="prev" class="neumorphic"><span>&#9664;&#9664;</span></button>
+              <button id="play" class="neumorphic play"><span class="play-icon">&#9654;</span></button>
+              <button id="next" class="neumorphic"><span>&#9654;&#9654;</span></button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- ✅ Playlist Screen -->
+        <div id="playlistScreen" class="screen">
+          <div class="header">
+            <h2>Playlist</h2>
+              <button id="goToPlayer" class="neumorphic">→</button>
+            </div>
+          <ul id="playlist"></ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <img id="img1" class="images" src="photos/artic_monkeys.jpeg" alt="Photo" />
       <p class="text" id="text1">
@@ -22,7 +67,6 @@
         I chose this band because they’re one of my dad’s and my favorites. I’ve always had a love for old songs, especially their track Wonderwall. It’s not just about the song itself—it carries such a strong nostalgic feeling every time I listen to them. I know that at my age, it’s rare to still appreciate their music, and that makes my connection to the band even more meaningful.
       </p>
     </div>
-    <div class="music_player"></div>
     <div class="nav">
       <a href="page3.html"><button id="prev-btn" class="btn">←Prev</button></a>
       <a href="index.html"><button class="btn">1</button></a>
@@ -33,4 +77,5 @@
       <a href="page5.html"><button id="next-btn" class="btn">Next→</button></a>
     </div>
   </body>
+  <script src="js/script4.js"></script>
 </html>
